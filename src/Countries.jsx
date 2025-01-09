@@ -15,7 +15,7 @@ useEffect(()=>{
          setcountries(jasondata);
         }
         catch(error){
-          console.log("Error fetching data: ", error);
+          console.error("Error fetching data: ", error);
         }
     }
    fetchCountries();
